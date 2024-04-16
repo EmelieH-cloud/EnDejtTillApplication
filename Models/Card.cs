@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EnDejtTillApplication.Models
+﻿namespace EnDejtTillApplication.Models
 {
+    // kommentar 
     internal class Card
     {
     }
