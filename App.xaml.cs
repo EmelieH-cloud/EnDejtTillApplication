@@ -1,4 +1,6 @@
-﻿namespace EnDejtTillApplication
+﻿using EnDejtTillApplication.Pages;
+
+namespace EnDejtTillApplication
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new DemoContentPage();
         }
     }
 }
