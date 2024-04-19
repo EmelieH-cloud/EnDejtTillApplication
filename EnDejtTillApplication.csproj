@@ -63,28 +63,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\contentpages\DemoContentPage.xaml">
+	  <MauiXaml Update="Pages\Mainpage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\contentpages\DemoContentPage2.xaml">
+	  <MauiXaml Update="Pages\RulesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\contentpages\DemoContentPage3.xaml">
+	  <MauiXaml Update="Pages\SelectDeckPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\FlyoutPages\FlyoutContentPage1.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\navigationpages\NavContentPage1.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\navigationpages\NavContentPage2.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\navigationpages\NavContentPage3.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\tabbedpages\demoTabbedPage.xaml">
+	  <MauiXaml Update="Pages\SelectPlayersPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
