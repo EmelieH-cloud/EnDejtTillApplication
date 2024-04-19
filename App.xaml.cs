@@ -1,4 +1,5 @@
-﻿using EnDejtTillApplication.Pages.NewFolder;
+﻿
+using EnDejtTillApplication.Pages;
 
 namespace EnDejtTillApplication
 {
@@ -9,7 +10,7 @@ namespace EnDejtTillApplication
             InitializeComponent();
             //  MainPage = new NavigationPage(new NavContentPage1());
 
-            MainPage = new demoTabbedPage();
+            MainPage = new Mainpage();
         }
     }
 }

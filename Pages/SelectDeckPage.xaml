@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EnDejtTillApplication.Pages.SelectDeckPage"
+             Title="SelectDeckPage">
+    <Grid Padding="10">
+        <!-- Definiera rader -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!-- Första raden -->
+            <RowDefinition Height="Auto" />
+            <!-- Andra raden -->
+        </Grid.RowDefinitions>
+
+        <!-- Definiera kolumner -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <!-- Första kolumnen -->
+            <ColumnDefinition Width="*" />
+            <!-- Andra kolumnen -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Lägg till kort i respektive celler -->
+        <Border Grid.Row="1"  Grid.Column="0" Padding="10" BackgroundColor="#EDEDED" >
+            <StackLayout Orientation="Vertical">
+                <Label Text="DECK 1" FontSize="Title" HorizontalOptions="Center" />
+                <Label Text="Beskrivning av deck 1" FontSize="Small" HorizontalOptions="Center" />
+            </StackLayout>
+        </Border>
+
+        <Border BackgroundColor="Red" Grid.Row="1" Grid.Column="1" Padding="10">
+            <StackLayout Orientation="Vertical">
+                <Label Text="DECK 2" FontSize="Title" HorizontalOptions="Center" />
+                <Label Text="Beskrivning av deck 2" FontSize="Small" HorizontalOptions="Center" />
+            </StackLayout>
+        </Border>
+
+        <Button Text="Gå vidare"/>
+    </Grid>
+</ContentPage>
