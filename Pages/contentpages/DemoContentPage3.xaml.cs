@@ -1,8 +1,8 @@
 namespace EnDejtTillApplication.Pages;
 
-public partial class DemoContentPage : ContentPage
+public partial class DemoContentPage3 : ContentPage
 {
-    public DemoContentPage()
+    public DemoContentPage3()
     {
         InitializeComponent();
     }
