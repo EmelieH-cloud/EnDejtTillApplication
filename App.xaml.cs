@@ -1,4 +1,4 @@
-﻿using EnDejtTillApplication.Pages;
+﻿using EnDejtTillApplication.Pages.FlyoutPages;
 
 namespace EnDejtTillApplication
 {
@@ -7,8 +7,9 @@ namespace EnDejtTillApplication
         public App()
         {
             InitializeComponent();
+            //  MainPage = new NavigationPage(new NavContentPage1());
 
-            MainPage = new DemoContentPage();
+            MainPage = new FlyoutContentPage1();
         }
     }
 }

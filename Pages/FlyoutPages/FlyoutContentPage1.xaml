@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EnDejtTillApplication.Pages.FlyoutPages.FlyoutContentPage1"
+             Title="FlyoutContentPage1">
+    <FlyoutPage.Flyout>
+        <ContentPage Title="MyApp" BackgroundColor="DarkBlue">
+            <VerticalStackLayout>
+                <Label Text="flyout text" HorizontalTextAlignment="Center" Margin="20"></Label>
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage BackgroundColor="DarkRed">
+                    <VerticalStackLayout>
+                        <Label Text="this is flyoutpage.detail"
+                               HorizontalTextAlignment="Center" 
+                               Margin="20">
+                        </Label>
+                    </VerticalStackLayout>
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>
